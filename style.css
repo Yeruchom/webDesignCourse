@@ -1,4 +1,10 @@
 body{
-    font-family: 'Tinos', serif;
+    font-family: 'Alef', sans-serif;
     font-size: 18px;
+    background-color: lightgreen
+}
+
+h1{
+    background-color: green;
+    text-align: center;
 }
