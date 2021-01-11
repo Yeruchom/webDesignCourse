@@ -1,6 +1,8 @@
 body {
     font-family: 'Alef', sans-serif;
     font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
 }
 
 h1 {
@@ -29,5 +31,12 @@ img {
   .grid {
     grid-template-columns: 1fr;
   } 
+}
+
+.contact{
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
 }
 
