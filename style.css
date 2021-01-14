@@ -7,7 +7,14 @@ body {
 
 h1 {
     text-align: center;
-    color: #29ce30;
+    color: #116035;
+    font-size: 48px;
+    margin-top: auto;
+}
+
+h2 {
+    font-size: 22px;
+    color: #116035;
 }
 
 .container {
@@ -25,18 +32,35 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
-    align-items: center;    
-}
-@media (max-width: 700px) {
-  .grid {
-    grid-template-columns: 1fr;
-  } 
+    align-items: center;
 }
 
-.contact{
-    background-color: beige;
-    padding: 20px;
+@media (max-width: 700px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.contact {
+    background-color: #fafaed;
+    padding: 5px;
     text-align: center;
     margin-top: 40px;
 }
 
+.logo {
+    display: block;
+    margin: auto;
+}
+
+.explenation {
+    background: url(img/view.jpg) center;
+    background-size: cover;
+    padding: 10px;
+
+}
+
+.explenation .container {
+    max-width: 70%;
+    color: white;
+}
