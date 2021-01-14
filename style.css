@@ -57,10 +57,10 @@ img {
     background: url(img/view.jpg) center;
     background-size: cover;
     padding: 10px;
-
 }
 
 .explenation .container {
     max-width: 70%;
     color: white;
+    text-align: right;
 }
