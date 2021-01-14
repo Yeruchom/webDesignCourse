@@ -45,7 +45,6 @@ img {
     background-color: #fafaed;
     padding: 5px;
     text-align: center;
-    margin-top: 40px;
 }
 
 .logo {
@@ -56,11 +55,10 @@ img {
 .explenation {
     background: url(img/view.jpg) center;
     background-size: cover;
-    padding: 10px;
+    padding-bottom: 40px;
 }
 
 .explenation .container {
     max-width: 70%;
-    color: white;
-    text-align: right;
+    margin-right:10px;
 }
