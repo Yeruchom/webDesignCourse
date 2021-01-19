@@ -7,14 +7,14 @@ body {
 
 h1 {
     text-align: center;
-    color: #116035;
-    font-size: 48px;
+    color: #26a846;
+    font-size: 55px;
     margin-top: auto;
 }
 
 h2 {
     font-size: 22px;
-    color: #116035;
+    color: #f2592a;
 }
 
 .container {
@@ -61,4 +61,18 @@ img {
 .explenation .container {
     max-width: 70%;
     margin-right:10px;
+}
+.prodacts{
+    padding: 40px 0;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.gallery img{
+    display: block;
 }
