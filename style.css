@@ -8,19 +8,20 @@ body {
 h1 {
     text-align: center;
     color: #26a846;
-/*    background-color: #f8b8a4;*/
     font-size: 55px;
     margin-top: auto;
 }
-
 h2 {
-    font-size: 22px;
+    font-size: 25px;
     color: #f2592a;
 }
-
+h3{
+    font-size: 22px;
+}
 .container {
     max-width: 800px;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 img {
@@ -44,30 +45,24 @@ img {
 
 .contact {
     background-color: #fafaed;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
-
 }
-
 .logo {
     display: block;
     margin: auto;
+    margin-top: 10px;
 }
 
 .explenation {
     background: url(img/view.jpg) center;
     background-size: cover;
     padding-bottom: 40px;
+    padding-top: 40px;
     color: #fff;
-}
-
-.explenation .container {
-    max-width: 40%;
-    margin-right:10px;
 }
 .prodacts{
     padding: 40px 0;
-    text-align: center;
 }
 .gallery{
     display: grid;
@@ -89,8 +84,10 @@ img {
     text-decoration: none;
     color: #000;
     background: #ffff;
+    border-radius: 7px;
     padding: 10px 20px;
-    display: inline-block;
+    display: table;
+    margin: 10px auto;
     font-size: 20px;
     font-weight:900; 
 }
